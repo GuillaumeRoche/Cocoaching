@@ -37,4 +37,18 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+  <script>
+      // Initialize Firebase
+      var config = {
+          apiKey: "AIzaSyDMUG6hXD-ixEMrSpWm6qG1fJLmyge2f4c",
+          authDomain: "cocoach-app.firebaseapp.com",
+          databaseURL: "https://cocoach-app.firebaseio.com",
+          projectId: "cocoach-app",
+          storageBucket: "cocoach-app.appspot.com",
+          messagingSenderId: "498651165878"
+      };
+      firebase.initializeApp(config);
+  </script>
 </html>
